@@ -7,14 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manufacture.API", "Manufact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesBusiness.API", "SalesBusiness.API\SalesBusiness.API.csproj", "{D2E1FDA1-AFC4-4633-9737-FFEBB0E18E85}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{C88EFA8E-C08F-4D2E-B54E-308C85FA87C0}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yaml = docker-compose.yaml
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared_Project", "Shared_Project\Shared_Project.csproj", "{61B0CBEA-3192-4CD8-ADB6-A68459A2439C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared_Project", "Shared_Project\Shared_Project.csproj", "{61B0CBEA-3192-4CD8-ADB6-A68459A2439C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocelot.API", "Ocelot.API\Ocelot.API.csproj", "{0C0C1848-356B-49DD-8045-DFB588450446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot.API", "Ocelot.API\Ocelot.API.csproj", "{0C0C1848-356B-49DD-8045-DFB588450446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
